@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TestActivtity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 + 1 = ?"
+        android:layout_marginLeft="10dp"
+        android:textColor="#212121"
+        android:textSize="24sp"
+        />
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RadioButton
+        android:id="@+id/option1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5 "
+        android:textSize="18sp"
+        android:layout_marginLeft="5dp"/>
+
+
+    <RadioButton
+        android:id="@+id/option2"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:textSize="18sp"/>
+</RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_margin="5dp"
+        android:text="Submit"
+        android:id="@+id/submitbtn"
+        android:background="@color/colorAccent"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ans"
+        android:layout_marginLeft="10dp"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/colorAccent"/>
+
+</LinearLayout>
